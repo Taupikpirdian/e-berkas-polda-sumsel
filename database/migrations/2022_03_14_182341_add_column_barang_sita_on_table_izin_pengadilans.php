@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddColumnBarangSitaOnTableIzinPengadilans extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('izin_pengadilans', function (Blueprint $table) {
+            $table->text('barang_sita')->after('status')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('izin_pengadilans', function (Blueprint $table) {
+            $table->dropColumn('barang_sita');
+        });
+    }
+}

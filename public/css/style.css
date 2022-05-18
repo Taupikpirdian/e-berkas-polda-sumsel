@@ -1,0 +1,134 @@
+/* welcome page */
+.welcome-page .header {
+  margin-top: 75px;
+}
+
+.welcome-page .header span {
+  color: #f63131;
+}
+
+.welcome-page .header h1 {
+  font-size: 96px;
+  color: #6259ca;
+}
+
+.welcome-page .header h2 {
+  color: #6259ca;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.welcome-page .card {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 4px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.welcome-page .card:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcome-page .card .card-image {
+  border-radius: 100%;
+  padding: 20px;
+  width: 60%;
+  height: 70%;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin: auto;
+  text-align: center;
+  border: 10px #6259ca solid;
+}
+
+.welcome-page .card .card-image img {
+  text-align: center;
+}
+
+.card-list__polri {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card-list__polri:hover {
+  -webkit-box-shadow: 0px 7px 38px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 7px 38px rgba(0, 0, 0, 0.15);
+}
+
+.card-list__polri .card-body .icon-card {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.form-header {
+  outline: none;
+  width: 40%;
+  color: #4d5875;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0px;
+  border-top: none;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+  border-right: none;
+  border-left: none;
+}
+
+.form-header:focus {
+  background-color: transparent;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+}
+
+.btn-header {
+  background: transparent;
+  color: #4d5875;
+  border: none;
+  outline: none !important;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid white;
+}
+
+.list-polres a {
+  color: #000000 !important;
+}
+
+.btn-file__message {
+  cursor: pointer;
+  border: none;
+  background-color: transparent !important;
+}
+
+.dropup .dropdown-menu {
+  max-height: 120px !important;
+  overflow: auto;
+}
+
+.form-label-required:after {
+  content: " *";
+  color: red;
+}
+
+.loadingContent {
+  display: block;
+  opacity: 0.8;
+  cursor: wait;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 2001;
+  text-align: center;
+}
+
+.table-user .table {
+  background-color: white !important;
+}
+/*# sourceMappingURL=style.css.map */
